@@ -68,7 +68,17 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
-    background-color: white;
+    background-color: lightgray;
     padding: 20px;
+}
+
+.announcements {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.trending {
+    grid-column: 2 / 3;
+    background-color: white;
 }
 
